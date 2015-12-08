@@ -1,0 +1,17 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+}
+
+#name{
+    font-size: 3em;
+}
+
+#description{
+    font-size: 1.5em;
+}
+
+#picture{
+    height: 200px;
+    width: 200px;
+}
