@@ -59,6 +59,8 @@ function processKeyDown(e) {
     var next = (new Date()).getTime();
     var delta = next - start;
     start = next;
+    console.log(e.charCode);
+    console.log(e.keyCode);
     var charCode = e.charCode || e.keyCode;
     var c = String.fromCharCode(charCode);
 
