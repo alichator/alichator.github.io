@@ -20,3 +20,75 @@ body{
     width: 100%;
     border-radius: 15px;
 }
+
+.publication {
+    margin-bottom: 1em;
+    line-height: 1.1;
+}
+.title {
+    font-weight: bold;
+}
+
+.authors {
+    display: block;
+    font-style: italic;
+    padding-left: 2.2em;
+}
+
+.venue {
+    display: block;
+    padding-left: 2.2em;
+    padding-bottom: .2em;
+}
+
+.abstract a, .abstract a:visited {
+    color: #306D60; 
+}
+
+.year {
+
+    font-size:24px;
+    font-weight:bold;
+}
+
+.papertitle{
+    font-size:16px; 
+    color:#036887; 
+    font-weight:bold;
+}
+
+
+.conferencename{
+    font-size:16px; 
+    color:#96281B;
+}
+
+.authornames{
+    font-size:16px; 
+    color:#000000;
+}
+
+.paperlinks{
+    font-size:16px; 
+}
+
+.abstract{
+    font-size:12px; 
+    text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+#publications li {
+   margin:0 0 10px 0;   
+}
+
+.abstract p {
+    line-height: 1.5;
+    padding: 0px 20px;
+}
+
+
