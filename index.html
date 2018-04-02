@@ -19,10 +19,39 @@
             </div>
             <div class="col-md-8">
               <div id = "description"> 
-                I am first year PhD student at Johns Hopkins University studying computer science. My advisor is <a href="https://isi.jhu.edu/~mgreen/" >Professor Matthew Green</a>. I am currently interested in applied cryptography and broadly on problems in computer security that impact technology policy.
+                I am second year PhD student at Johns Hopkins University studying computer science. I am part of the <a href="https://arc.isi.jhu.edu/" >Advanced Research in Cryptography group</a> and advised by <a href="https://isi.jhu.edu/~mgreen/" >Professor Matthew Green</a>. I am currently interested in applied cryptography and broadly on problems in computer security that impact technology policy. In particular, I seek to improve privacy by designing schemes with rigorously proven guarantees and auditing existing schemes to understand how privacy loss arises. Outside of my work at JHU, I have collaborated with <a href="http://randomwalker.info/" >Professor Narayanan's</a> group in the <a href="https://citp.princeton.edu/" >CITP</a> at Princeton University in <a href="https://github.com/citp/BlockSci" >blockchain analysis</a>.
                 <br/><br/>
-                I was previously an undergraduate student at the University of Michigan studying Computer Science, Mathematics, and Physics. While there, I worked with <a href="http://jhalderm.com" >Professor J. Alex Halderman</a>, most recently aiding in the development of <a href="http://censys.io">censys.io</a>. I can be reached at <a href="mailto:alishahc@cs.jhu.edu" target="_top"> alishahc@cs.jhu.edu</a>.
+             
+                <br/><br/>
+                I was previously an undergraduate student at the University of Michigan studying Computer Science, Mathematics, and Physics. While there, I worked with <a href="http://jhalderm.com" >Professor J. Alex Halderman</a>, most recently aiding in the development of <a href="http://censys.io">censys.io</a>. 
+                <br/><br/>
+                I can be reached at <a href="mailto:alishahc@cs.jhu.edu" target="_top"> alishahc@cs.jhu.edu</a>.
               </div>
+            </div>
+        </div>
+      <div class = "row">
+        <div > <h2>Publications</h2> </div>
+          <hr>
+            <div class="col-md-12">
+              <li>
+							  <span class="papertitle">How to Squeeze a Crowd: Reducing Bandwidth in Mixing Cryptocurrencies</span><br />
+							  <span class="authornames">Alishah Chator, Matthew Green</span>
+							  <br />
+							  <span class="conferencename">IEEE S&B 2018</span><br />
+							  <span class="paperlinks">[<a href="https://isi.jhu.edu/~mgreen/mixing.pdf">preprint</a>] [<a href="">proceedings</a>] [<a data-toggle="collapse"  href="#CG18abs">show abstract</a>] [<a href="./bibfiles/CG18.txt">bibTeX</a>]</span>
+
+							  <div style="padding-top: 10px;"></div>					  
+							    <!--<div id="AJS17abs" class="collapse" style="background-color:lightgrey">-->
+							    <div id="CGabs" class="collapse">
+							  	  <span class="abstract">
+
+							  		  <p>Several popular cryptocurrencies incorporate privacy features that “mix” real transactions with cover traffic in order to obfuscate the public transaction graph. The underlying protocols, which include CryptoNote and Monero’s RingCT, work by first identifying a real transaction output (TXO), sampling a number of cover outputs, and transmitting the entire resulting set to verifiers, along with a zero knowledge (or WI) proof that hides the identity of the real transaction. Unfortunately, many of these schemes suffer from a practical limitation: the description of the combined input set grows linearly with size of the anonymity set.</p>								 
+
+							  		  <p>In this work we propose a simple technique for efficiently sampling cover traffic from a finite (and public) set of known values, while deriving a compact description of the resulting transaction set. This technique, which is based on programmable hash functions, allows us to dramatically reduce transaction bandwidth when large cover sets are used. We refer to our construction as a recoverable sampling scheme, and note that it may be of independent interest for other privacy applications. We present formal security definitions; prove our constructions secure; and show how these constructions can be integrated with various currencies and different cover sampling distributions.</p>
+
+							  		</span>
+							  </div>
+						  </li>
             </div>
         </div>
   </body>
